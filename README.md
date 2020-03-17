@@ -1,5 +1,12 @@
 # LoadingExternalScript
 
+IF YOU ARE DOWNLOADING DIST REPO there is another way to load an script into a component, maybe Recomended in some cases
+npm install jquery
+Then on the component  
+import \* as $ from 'jquery';
+implements AfterViewInit  ngAfterViewInit() and within {}
+$.getScript('assets/Lib/js/about.js'); ('wanted script address')
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
 
 ## Development server
